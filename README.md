@@ -35,7 +35,7 @@ Students can view available slots and book appointments, while professors can ma
 
 ---
 
-### **3. Professor APIs** *(optional if implemented)*
+### **3. Professor APIs** 
 
 | Endpoint | Method | Request Body / Params | Description | Auth Required |
 |----------|--------|---------------------|-------------|---------------|
