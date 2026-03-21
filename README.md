@@ -39,9 +39,9 @@ Students can view available slots and book appointments, while professors can ma
 
 | Endpoint | Method | Request Body / Params | Description | Auth Required |
 |----------|--------|---------------------|-------------|---------------|
-| `/professor/slots` | POST | `{ "date", "time" }` | Create available slots | ✅ Professor |
+| `/professor/availability` | POST | `{ "date", "time" }` | Create available slots | ✅ Professor |
 | `/professor/appointments` | GET | — | List all appointments booked with the professor | ✅ Professor |
-| `/professor/slots/:slotId` | DELETE | `slotId` in URL | Delete a specific slot | ✅ Professor |
+| `/professor/appointment/:id` | DELETE | `appointmentId` in URL | Delete a specific slot | ✅ Professor |
 
 ---
 
